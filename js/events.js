@@ -7,7 +7,13 @@ function getIt(){
 }
 
 function frameIt(){
-  $('.tasty').on('load', function(){
+  $('img').on('load', function(){
+    this.addClass('tasty')
+  })
+}
+
+function pressIt(){
+  $('form input#typing').on('keydown', function(){
     
   })
 }
